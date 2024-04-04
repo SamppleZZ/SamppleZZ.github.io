@@ -1,0 +1,84 @@
+	h1{
+		font-family arial: "times new roman;
+		font-size: 22px;
+		font-style: italic;
+		font-weight: 100;
+		text-align: left;
+		text-decoration: underline;
+		text-indent: 30px;
+		text-transform: lowercase;
+		color: red;
+		letter-spacing: 10px;
+		line-height: 30px;
+}
+
+a{ text decoration: none;
+}
+	p {
+		color:white;
+		font-size 18px;
+	}
+body{
+		color:white;
+		background-image: url("kirjasto.jpg");
+		background-size: cover;
+		width: 1920px;
+		height: 1080px;
+	}
+img {
+ 		 display: block;
+	 	 margin-left: auto;
+		 margin-right: auto;
+	}
+
+
+span {
+	  background-color: black;
+	}
+
+h2{
+	color:white;
+	font-size: 30px;
+	font-weight:bold;
+	font-family: Helvetica, Serif;
+	text-align: center;
+}
+h3{
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
+	font-family: Helvetica, serif;
+	text-transform: capitalize;
+}
+li{
+	color: white;
+	font-family: helvetica, serif;
+	text-align: center;
+	font-size: 18px;
+	List-style-type: square;
+}
+
+p{
+	color: white;
+	font-family: helvetica, serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+
+	
+	.vasen img{
+	float: left;
+	margin-left: 0px 0px 0px 30px;
+	width: 150px;
+	height: 75px;
+}
+
+a{
+	color: #42a795;
+}
+a:hover, a:focus {
+	color: #637471;
+}

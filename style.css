@@ -1,0 +1,75 @@
+	p {
+		color:white;
+		font-size 18px;
+	}
+body{
+		color:white;
+		background-image: url("korea.jpg");
+		background-size: cover;
+		width: 1920px;
+		height: 1080px;
+	}
+img {
+ 		 display: block;
+	 	 margin-left: auto;
+		 margin-right: auto;
+	}
+
+
+span {
+	  background-color: black;
+	}
+
+h1{
+	color: white;
+	font-size: 50px;
+	font-weight:heavy;
+	font-family: Lucida, Helvetica, sans-serif;
+	text-align: center;
+	text-decoration: underline;
+	background-color: black;
+	letter-spacing: 5px;
+	text-align: center;
+	text-height: 50px;
+	}
+h2{
+	color:white;
+	font-size: 30px;
+	font-weight:bold;
+	font-family: Helvetica, Serif;
+	text-align: center;
+}
+h3{
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
+	font-family: Helvetica, serif;
+	text-transform: capitalize;
+}
+li{
+	color: white;
+	font-family: helvetica, serif;
+	text-align: center;
+	font-size: 18px;
+	List-style-type: square;
+}
+p{
+	color: white;
+	font-family: helvetica, serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.text {
+	text-align: center;
+	color: cyan;
+}
+
+a{
+	color: #42a795;
+}
+a:hover, a:focus {
+	color: #5f6b69;
+}
