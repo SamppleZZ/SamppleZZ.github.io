@@ -1,12 +1,12 @@
 var timer = null;
 
-var countDownNumber = 10
+var countDownNumber = 6
 
 var changeState = function (state) {
     document.body.className = 'body-state'+
         state;
         clearInterval (timer);
-        countDownNumber = 10;
+        countDownNumber = 6;
         document.getElementById('countdown').
         innerHTML = countDownNumber;
         
@@ -16,6 +16,17 @@ var changeState = function (state) {
             -1;
             document.getElementById('countdown')
                 .innerHTML = countDownNumber;
+
+              //  if (countDownNumber > 5 && countDownNumber <==7) {
+                    //Im sorry, amanai. But im not sad about your death right now, the world just feels so right
+                //    document.getElementById('Hollow') .className = 'hollow show';
+                //} else{
+                //    document.getElementById('hollow'). className = 'hollow'
+                //}
+
+                //if (countDownNumber == 4) {
+                    //imaginery technique Purple
+                //}
             if (countDownNumber <= 0){
                 changeState(3);
             };
