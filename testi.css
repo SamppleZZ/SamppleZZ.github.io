@@ -1,5 +1,5 @@
 	h1{
-		font-family arial: "times new roman;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
 		font-size: 22px;
 		font-style: italic;
 		font-weight: 100;
@@ -12,24 +12,17 @@
 		line-height: 30px;
 }
 
-a{ text decoration: none;
-}
 	p {
 		color:white;
-		font-size 18px;
+		font-size: 18px;
 	}
 body{
 		color:white;
 		background-image: url("kirjasto.jpg");
 		background-size: cover;
-		width: 1920px;
-		height: 1080px;
+		background-repeat: no-repeat;
 	}
-img {
- 		 display: block;
-	 	 margin-left: auto;
-		 margin-right: auto;
-	}
+
 
 
 span {
@@ -69,11 +62,17 @@ p{
 
 
 	
-	.vasen img{
+.vasen img{
+	position: relative;
+	left: 46%;
+	bottom: 170px;
+}
+
+.vasen2 img{
+	display: block;
 	float: left;
-	margin-left: 0px 0px 0px 30px;
-	width: 150px;
-	height: 75px;
+	width: 50%;
+	height: 160px;
 }
 
 a{
@@ -81,4 +80,30 @@ a{
 }
 a:hover, a:focus {
 	color: #637471;
+}
+.calm {
+	text-align: center;
+	padding-left: 280px;
+	padding-right: 280px;
+	padding-bottom: 00px;
+}
+.maito {
+	margin:auto;
+    border: 3px solid black;
+	padding: 20px;
+    width: 250px;
+    height: 470px;
+    text-align: center;
+	line-height: 1.4;
+    font-size: 15px;
+    font-family: verdana, geneva, tahoma, sans-serif;
+}
+.maito2 {
+    border: 3px solid black;
+    width: 160px;
+    height: 160px;
+    text-align: left;
+    font-size: medium;
+	display: block;
+    font-family: verdana, geneva, tahoma, sans-serif;
 }

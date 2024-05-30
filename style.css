@@ -1,9 +1,9 @@
 	p {
 		color:white;
-		font-size 18px;
+		font-size: 18px;
 	}
 body{
-		color:white;
+		color:#42a795;
 		background-image: url("korea.jpg");
 		background-size: cover;
 		width: 1920px;
@@ -30,7 +30,6 @@ h1{
 	background-color: black;
 	letter-spacing: 5px;
 	text-align: center;
-	text-height: 50px;
 	}
 h2{
 	color:white;
@@ -67,9 +66,14 @@ p{
 	color: cyan;
 }
 
-a{
-	color: #42a795;
+	a{
+		color: #42a795;
 }
-a:hover, a:focus {
-	color: #5f6b69;
+	a:hover, a:focus {
+		color: #5f6b69;
+}
+
+.calm {
+	padding-left: 50px;
+	padding-right: 50px;
 }

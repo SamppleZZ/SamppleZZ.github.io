@@ -1,0 +1,23 @@
+
+body {
+    background-color: antiquewhite;
+}
+h2 {
+    text-shadow: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(138, 18, 194);
+}
+a {
+    text-shadow: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(138, 18, 194);
+}
+div {
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    text-align: left;
+    font-size: medium;
+
+    font-family: verdana, geneva, tahoma, sans-serif;
+}
