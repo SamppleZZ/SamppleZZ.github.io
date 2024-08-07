@@ -46,6 +46,14 @@ h3{
 	font-family: Helvetica, serif;
 	text-transform: capitalize;
 }
+h4{
+	color:white;
+	font-size: 15px;
+	font-weight:bold;
+	text-align: center;
+	font-family: Helvetica, serif;
+	text-transform: capitalize;
+}
 li{
 	color: white;
 	font-family: helvetica, serif;
@@ -66,11 +74,12 @@ p{
 	color: cyan;
 }
 
-	a{
-		color: #42a795;
-}
-	a:hover, a:focus {
-		color: #5f6b69;
+.keskelle	{
+	
+		color: cyan;
+		font-weight:bold;
+		text-align: center;
+		font-size: 15px;
 }
 
 .calm {
