@@ -6,8 +6,7 @@ body{
 		color:#42a795;
 		background-image: url("korea.jpg");
 		background-size: cover;
-		width: 1920px;
-		height: 1080px;
+		background-repeat: no-repeat, repeat;
 	}
 img {
  		 display: block;
@@ -75,7 +74,7 @@ p{
 }
 
 .keskelle	{
-	
+
 		color: cyan;
 		font-weight:bold;
 		text-align: center;
